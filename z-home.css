@@ -284,16 +284,10 @@ h4 {
     visibility: hidden;
     transition: opacity 0.3s ease-in-out, visibility 0s linear 0.3s;
     z-index: 100;
-
-
 }
-
-@media (max-width: 1328px) {
-    .nav-banner {
-        left: 10%;
-    }
+.nav-banner:hover{
+    
 }
-
 .nav-banner .nav-banner-wrapper {
     max-width: 1328px;
     display: flex;
@@ -332,7 +326,6 @@ h4 {
     margin: 0px;
     padding: 0px;
     margin-bottom: 8px;
-    /* word-spacing: -2px; */
 }
 
 .nav-banner-item .sub-list-item a {
@@ -395,15 +388,17 @@ h4 {
     /* position: absolute; */
     top: 80%;
     gap: 10px;
+    margin: 0 auto;
 }
 
 .box-wrapper {
     background-color: white;
     position: relative;
-    max-width: 210px;
+    /* max-width: 210px; */
     height: 370px;
     padding: 1.3em;
-   
+    margin: 1em;
+    width: calc((100% - ( 8 * 16px )) / 4);
 }
 
 .box-img {
@@ -431,6 +426,7 @@ h4 {
 
 .box-wrapper .box-img {
     width: 100%;
+    vertical-align: middle;
 }
 
 .deals-row .deal-off {
