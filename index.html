@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- style CSS file     -->
     <link rel="stylesheet" href="style.css">
+    <!-- nav header css -->
+    <link rel="stylesheet" href="navHeader.css">
     <!-- Remix Icons -->
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.6.0/fonts/remixicon.css" rel="stylesheet">
     <!-- Web Icons -->
@@ -13,518 +15,269 @@
     <!-- Bootstrap V5.3.2 CSS file -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <title>SwiftCart</title>
+    <script src="script.js"></script>
 </head>
 
 <body>
     <div id="page" class="site">
-        <!-- header -->
-        <header>
-            <!-- Top header Containes Logo, search-bar, profile and cart icons. -->
-            <div class="header-top">
-                <div class="container">
-                    <div class="wrapper flexitem">
-                        <!-- logo -->
-                        <a href="index.html">
-                            <div class="logo">Swift<span class="c-letter">C</span>art</div>
-                        </a>
-                        <!-- search box -->
-                        <div class="header-searchbar">
-                            <form class="d-flex">
-                                <input class="form-control me-2  with-search-icon" type="search" aria-label="Search"
-                                    placeholder="Try Saree, Kurti or Search by Product Code">
-                            </form>
-                        </div>
-                        <!-- right side icons -->
-                        <div class="right-icons">
-                            <div class="top-header-icons profile-icon mobile-hide">
-                                <div class="top-icon">
-                                    <i class="ri-user-line"></i>
-                                </div>
-                                <div class="bottom-title">Profile</div>
-                                <!-- Hidden content to show on hover -->
-                                <div class="hover-box">
-                                    <div class="title">Hello User</div>
-                                    <small class="sub-title">To access your account</small>
-                                    <div class="box-content">
-                                        <a href="#">Sign Up</a>
-                                    </div>
-                                    <hr>
-                                    <div class="my-order">
-                                        <i class="ri-shopping-bag-line"></i>
-                                        <span><a href="#">My Order</a></span>
-                                    </div>
-                                </div>
+        <!-- Nav bar form nav-header.html with the help of code.js (javascript) -->
+        <div id="navigationPlaceholder">
+            <script>
+                $(document).ready(function () {
+                    $("#navigationPlaceholder").load("navHeader.html");
+                    $("#footerPlaceholder").load("footer.html");
+                });
+            </script>
+        </div>
+
+
+
+
+
+
+
+
+
+        <main style="background-color: #f2f3f5;">
+            <div class="caroudel-container p-lg-4 bg-light">
+
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="Images/Slider/slider-1.avif" class="d-block w-100" alt="Buy Now">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Buy Now</h5>
+                                <p>Click, shop, smile—your perfect buy just a click away!</p>
                             </div>
-                            <div class="top-header-icons">
-                                <div class="top-icon">
-                                    <i class="ri-shopping-cart-line"></i>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Images/Slider/slider-2.avif" class="d-block w-100" alt="Great Deals">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Great Deals</h5>
+                                <p>Shop smart, save big—50% off steals await your click!</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Images/Slider/slider-3.avif" class="d-block w-100" alt="Safe and Fast Delivery">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Safe and Fast Delivery</h5>
+                                <p>Swift and secure: enjoy lightning-fast delivery, worry-free!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+            <hr>
+            <div class="container m-3 mx-auto">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-12 my-2">
+                        <div class="card rounded-0 h-100">
+                            <h5 class="card-title pt-3 px-3">Top Deals</h5>
+                            <img src="Images/showcase/box-img/img1.jpg" class="small-img" alt="Top Deals">
+                            <div class="card-body">
+                                <div class="deals-row">
+                                    <span class="deal-off">Up to 53% off</span>
+                                    <span class="deal-off-context">Top Deal</span>
                                 </div>
-                                <div class="bottom-title cart">Cart</div>
+                                <small class="box-context">Winter Coats from MOERDENG,SUOKENI and more</small>
+                                <a href="#" class="card-link d-block bottom-0">See all detals</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-12 my-2">
+                        <div class="card rounded-0 h-100">
+                            <h5 class="card-title pt-3 px-3">Beauty steals</h5>
+                            <img src="Images/showcase/box-img/img2.png" class="card-img-top px-2" alt="Beauty steals">
+                            <div class="card-body">
+                                <a href="#" class="card-link">Buy now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-12 my-2">
+                        <div class="card rounded-0 h-100">
+                            <h5 class="card-title pt-3 px-3">Toys</h5>
+                            <img src="Images/showcase/box-img/img3.jpg" class="card-img-top px-2" alt="Toys">
+                            <div class="card-body">
+                                <a href="#" class="card-link">Buy now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-12 my-2">
+                        <div class="card rounded-0 h-100">
+                            <h5 class="card-title pt-3 px-3">House Decoration</h5>
+                            <img src="Images/showcase/box-img/img4.jpg" class="card-img-top px-2"
+                                alt="House Decoration">
+                            <div class="card-body">
+                                <a href="#" class="card-link">Buy now</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="seprator-line"></div>
-            <!-- header navigation contain all detail info -->
-            <div class="header-nav">
-                <div class="container-fluid">
-                    <div class="wrapper flexwrap">
-                        <div id="woman-ethnic" class="banner-item">
-                            <span><a href="#">Women Ethnic</a></span>
-                        </div>
-                        <div id="woman-western" class="banner-item">
-                            <span><a href="#">Women Western</a></span>
-                        </div>
-                        <div id="men" class="banner-item">
-                            <span><a href="#">Men</a></span>
-                        </div>
-                        <div id="kids" class="banner-item">
-                            <span><a href="#">Kids</a></span>
-                        </div>
-                        <div id="home" class="banner-item">
-                            <span><a href="#">Home & Kitchen</a></span>
-                        </div>
-                        <div id="beauty" class="banner-item">
-                            <span><a href="#">Beauty & Health</a></span>
-                        </div>
-                        <div id="jewellery" class="banner-item">
-                            <span><a href="#">Jewellery & Accessories</a></span>
-                        </div>
-                        <div id="bags" class="banner-item">
-                            <span><a href="#">Bags & Footwear</a></span>
-                        </div>
-                        <div id="electronics" class="banner-item">
-                            <span><a href="#">Electronics</a></span>
-                        </div>
-                    </div>
-                    <div class="seprator-line"></div>
-                    <!-- banners nav system -->
-                    <!-- All Women Ethnic -->
-                    <div id="woman-ethnic-banner" class="nav-banner container">
+            <div class="container m-3 mx-auto">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-12 my-2">
+                        <div class="card rounded-0 h-100">
+                            <h5 class="card-title pt-3 px-3">Refresh your space</h5>
+                            <div class="m-1 d-flex justify-content-evenly">
+                                <div class="m-1"><img src="Images/showcase/box-img/img5.jpg" alt="Dining"
+                                        class="ms-auto"><small class="d-block">Dining</small></div>
 
-                        <div class="nav-banner-wrapper">
-                            <div class="nav-banner-item odd-child flexcol">
-                                <div class="list-title">All Women Ethnic</div>
-                                <div class="sub-list-item"><a href="#">View All</a></div>
+                                <div class="m-1"><img src="Images/showcase/box-img/img6.jpg" alt="Home"
+                                        class="ms-auto"><small class="d-block">Home</small></div>
                             </div>
-                            <div class="nav-banner-item even-child flexcol">
-                                <div class="list-title">Sarees</div>
-                                <div class="sub-list-item"><a href="#">All Sarees</a></div>
-                                <div class="sub-list-item"><a href="#">Silk Sarees</a></div>
-                                <div class="sub-list-item"><a href="#">Cotton Silk Sarees</a></div>
-                                <div class="sub-list-item"><a href="#">Cotton Sarees</a></div>
-                                <div class="sub-list-item"><a href="#">Georgette Sarees</a></div>
-                                <div class="sub-list-item"><a href="#">Chiffon Sarees</a></div>
-                                <div class="sub-list-item"><a href="#">Satin Sarees</a></div>
-                                <div class="sub-list-item"><a href="#">Embroidered Sarees</a></div>
+                            <div class="m-1 d-flex justify-content-evenly">
+                                <div class="m-1"><img src="Images/showcase/box-img/img7.jpg" alt="Kitchen"
+                                        class="ms-auto"><small class="d-block">Kitchen</small></div>
+                                <div class="m-1"><img src="Images/showcase/box-img/img8.jpg" alt="Health and Beauty"
+                                        class="ms-auto"><small class="d-block">Health and Beauty</small></div>
                             </div>
-                            <div class="nav-banner-item odd-child flexcol">
-                                <div class="list-title">Kurtis</div>
-                                <div class="sub-list-item"><a href="#">All Kurtis</a></div>
-                                <div class="sub-list-item"><a href="#">Anarkali Kurtis</a></div>
-                                <div class="sub-list-item"><a href="#">Rayon Kurtis</a></div>
-                                <div class="sub-list-item"><a href="#">Cotton Kurtis</a></div>
-                                <div class="sub-list-item"><a href="#">Embroidered Kurtis</a></div>
-                            </div>
-                            <div class="nav-banner-item even-child flexcol">
-                                <div class="list-title">Kurta Sets</div>
-                                <div class="sub-list-item"><a href="#">All Kurta Sets</a></div>
-                            </div>
-                            <div class="nav-banner-item odd-child flexcol">
-                                <div class="list-title">Suits & Dress Material</div>
-                                <div class="sub-list-item"><a href="#">All Suits & Dress Material</a></div>
-                                <div class="sub-list-item"><a href="#">Cotton Suits</a></div>
-                                <div class="sub-list-item"><a href="#">Embroidered Suits</a></div>
-                                <div class="sub-list-item"><a href="#">Chanderi Suits</a></div>
-                            </div>
-                            <div class="nav-banner-item even-child flexcol">
-                                <div class="list-title">Other Ethnic</div>
-                                <div class="sub-list-item"><a href="#">Blouses</a></div>
-                                <div class="sub-list-item"><a href="#">Dupattas</a></div>
-                                <div class="sub-list-item"><a href="#">Lehanga</a></div>
-                                <div class="sub-list-item"><a href="#">Gown</a></div>
-                                <div class="sub-list-item"><a href="#">Ethnic Bottomwear</a></div>
-                            </div>
-                            <div class="nav-banner-item odd-child flexcol">
-                                <div class="list-title"></div>
-                                <div class="sub-list-item"></div>
-                            </div>
-                            <div class="nav-banner-item flexcol">
-
+                            <div class="card-body">
+                                <a href="#" class="card-link">Buy now</a>
                             </div>
                         </div>
                     </div>
-                    <!-- Women Western -->
-                    <div id="woman-western-banner" class="nav-banner container">
-
-                        <div class="nav-banner-wrapper">
-                            <div class="nav-banner-item odd-child flexcol">
-                                <div class="list-title">Topwear</div>
-                                <div class="sub-list-item"><a href="#">Tops</a></div>
-                                <div class="sub-list-item"><a href="#">Dresses</a></div>
-                                <div class="sub-list-item"><a href="#">Sweaters</a></div>
-                                <div class="sub-list-item"><a href="#">Jumpsuits</a></div>
-                            </div>
-                            <div class="nav-banner-item even-child flexcol">
-                                <div class="list-title">Bottomwear</div>
-                                <div class="sub-list-item"><a href="#">Jeans</a></div>
-                                <div class="sub-list-item"><a href="#">Jegging</a></div>
-                                <div class="sub-list-item"><a href="#">Palazzos</a></div>
-                                <div class="sub-list-item"><a href="#">Shorts</a></div>
-                                <div class="sub-list-item"><a href="#">Skirts</a></div>
-                            </div>
-                            <div class="nav-banner-item odd-child flexcol">
-                                <div class="list-title">Innerwear</div>
-                                <div class="sub-list-item"><a href="#">Bra</a></div>
-                                <div class="sub-list-item"><a href="#">Briefs</a></div>
-                            </div>
-                            <div class="nav-banner-item flexcol">
-
-                            </div>
-                            <div class="nav-banner-item flexcol">
-
-                            </div>
-                            <div class="nav-banner-item flexcol">
-
-                            </div>
-                            <div class="nav-banner-item flexcol">
-
-                            </div>
-                            <div class="nav-banner-item flexcol">
-
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-12 my-2">
+                        <div class="card rounded-0 h-100">
+                            <h5 class="card-title pt-3 px-3">Deals on shoes</h5>
+                            <img src="Images/showcase/box-img/img17.jpg" class="card-img-top px-2" alt="Deals on shoes">
+                            <div class="card-body">
+                                <a href="#" class="card-link">See more</a>
                             </div>
                         </div>
                     </div>
-                    <!-- Men -->
-                    <div id="men-banner" class="nav-banner container">
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-12 my-2">
+                        <div class="card rounded-0 h-100">
+                            <h5 class="card-title pt-3 px-3">Shop deals in Fashion</h5>
+                            <div class="m-1 d-flex justify-content-evenly">
+                                <div class="m-1"><img src="Images/showcase/box-img/img9.jpg" alt="Jeans under $50"
+                                        class="ms-auto"><small class="d-block">Jeans under $50</small></div>
 
-                        <div class="nav-banner-wrapper">
-                            <div class="nav-banner-item odd-child flexcol">
-                                <div class="list-title">Top Wear</div>
-                                <div class="sub-list-item"><a href="#">All Top Wear</a></div>
-                                <div class="sub-list-item"><a href="#">Tshirts</a></div>
-                                <div class="sub-list-item"><a href="#">Shirts</a></div>
-
+                                <div class="m-1"><img src="Images/showcase/box-img/img10.jpg" alt="Tops under $25"
+                                        class="ms-auto"><small class="d-block">Tops under $25</small></div>
                             </div>
-                            <div class="nav-banner-item even-child flexcol">
-                                <div class="list-title">Bottom Wear</div>
-                                <div class="sub-list-item"><a href="#">Track Pants</a></div>
-                                <div class="sub-list-item"><a href="#">Jeans</a></div>
-                                <div class="sub-list-item"><a href="#">Trousers</a></div>
-
+                            <div class="m-1 d-flex justify-content-evenly">
+                                <div class="m-1"><img src="Images/showcase/box-img/img11.jpg" alt="Dresses under $30"
+                                        class="ms-auto"><small class="d-block">Dresses under $30</small></div>
+                                <div class="m-1"><img src="Images/showcase/box-img/img12.jpg" alt="Shoes under $50"
+                                        class="ms-auto"><small class="d-block">Shoes under $50</small></div>
                             </div>
-                            <div class="nav-banner-item odd-child flexcol">
-                                <div class="list-title">Men Accessories</div>
-                                <div class="sub-list-item"><a href="#">All Men Accessories</a></div>
-                                <div class="sub-list-item"><a href="#">Watches</a></div>
-                                <div class="sub-list-item"><a href="#">Belts</a></div>
-                                <div class="sub-list-item"><a href="#">Wallets</a></div>
-                                <div class="sub-list-item"><a href="#">Jewellery</a></div>
-                                <div class="sub-list-item"><a href="#">Sunglasses</a></div>
-                                <div class="sub-list-item"><a href="#">Bags</a></div>
-
-                            </div>
-                            <div class="nav-banner-item even-child flexcol">
-                                <div class="list-title">Men Footwear</div>
-                                <div class="sub-list-item"><a href="#">Casual Shoes</a></div>
-                                <div class="sub-list-item"><a href="#">Sports Shoes</a></div>
-                                <div class="sub-list-item"><a href="#">Sandals</a></div>
-                                <div class="sub-list-item"><a href="#">Formal Shoes</a></div>
-
-                            </div>
-                            <div class="nav-banner-item odd-child flexcol">
-                                <div class="list-title">Ethnic Wear</div>
-                                <div class="sub-list-item"><a href="#">Men Kurtas</a></div>
-                                <div class="sub-list-item"><a href="#">Ethnic Jackets</a></div>
-
-                            </div>
-                            <div class="nav-banner-item even-child flexcol">
-                                <div class="list-title">Inner & Sleep Wear</div>
-                                <div class="sub-list-item"><a href="#">All Inner & Sleep Wear</a></div>
-                                <div class="sub-list-item"><a href="#">Vests</a></div>
-
-                            </div>
-                            <div class="nav-banner-item flexcol">
-
-                            </div>
-                            <div class="nav-banner-item flexcol">
-
+                            <div class="card-body">
+                                <a href="#" class="card-link">Buy all deals</a>
                             </div>
                         </div>
                     </div>
-                    <!-- Kids -->
-                    <div id="kids-banner" class="nav-banner container">
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-12 my-2">
+                        <div class="card rounded-0 h-100">
+                            <h5 class="card-title pt-3 px-3">Easy updates for elevated spaces</h5>
+                            <div class="m-1 d-flex justify-content-evenly">
+                                <div class="m-1"><img src="Images/showcase/box-img/img13.jpg" alt="Baskets & hampers"
+                                        class="ms-auto"><small class="d-block">Baskets & hampers</small></div>
 
-                        <div class="nav-banner-wrapper">
-                            <div class="nav-banner-item odd-child flexcol">
-                                <div class="list-title">Boys & Girls 2+ Years</div>
-                                <div class="sub-list-item"><a href="#">Dresses</a></div>
-
+                                <div class="m-1"><img src="Images/showcase/box-img/img14.jpg" alt="Hardware"
+                                        class="ms-auto"><small class="d-block">Hardware</small></div>
                             </div>
-                            <div class="nav-banner-item even-child flexcol">
-                                <div class="list-title">Infant 0-2 Years</div>
-                                <div class="sub-list-item"><a href="#">Rompers</a></div>
-
+                            <div class="m-1 d-flex justify-content-evenly">
+                                <div class="m-1"><img src="Images/showcase/box-img/img15.jpg" alt="Accent furniture"
+                                        class="ms-auto"><small class="d-block">Accent furniture</small></div>
+                                <div class="m-1"><img src="Images/showcase/box-img/img16.jpg" alt="Wallpaper & paint"
+                                        class="ms-auto"><small class="d-block">Wallpaper & paint</small></div>
                             </div>
-                            <div class="nav-banner-item odd-child flexcol">
-                                <div class="list-title">Toys & Accessories</div>
-                                <div class="sub-list-item"><a href="#">Soft Toys</a></div>
-                                <div class="sub-list-item"><a href="#">Footwear</a></div>
-                                <div class="sub-list-item"><a href="#">Stationery</a></div>
-                                <div class="sub-list-item"><a href="#">Watches</a></div>
-                                <div class="sub-list-item"><a href="#">Bags & Backpacks</a></div>
-
-                            </div>
-                            <div class="nav-banner-item even-child flexcol">
-                                <div class="list-title">Baby Care</div>
-                                <div class="sub-list-item"><a href="#">All Baby Care</a></div>
-
-                            </div>
-                            <div class="nav-banner-item flexcol">
-
-                            </div>
-                            <div class="nav-banner-item flexcol">
-
-                            </div>
-                            <div class="nav-banner-item flexcol">
-
-                            </div>
-                            <div class="nav-banner-item flexcol">
-
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Home & Kitchen -->
-                    <div id="home-banner" class="nav-banner container">
-
-                        <div class="nav-banner-wrapper">
-                            <div class="nav-banner-item odd-child flexcol">
-                                <div class="list-title">Home Furnishing</div>
-                                <div class="sub-list-item"><a href="#">Bedsheets</a></div>
-                                <div class="sub-list-item"><a href="#">Doormats</a></div>
-                                <div class="sub-list-item"><a href="#">Curtains & Sheers</a></div>
-                                <div class="sub-list-item"><a href="#">Cushions & Cushion Covers</a></div>
-                                <div class="sub-list-item"><a href="#">Mattress Protectors</a></div>
-
-                            </div>
-                            <div class="nav-banner-item even-child flexcol">
-                                <div class="list-title">Home Decor</div>
-                                <div class="sub-list-item"><a href="#">All Home Decor</a></div>
-                                <div class="sub-list-item"><a href="#">Stickers</a></div>
-                                <div class="sub-list-item"><a href="#">Clocks</a></div>
-                                <div class="sub-list-item"><a href="#">Showpieces</a></div>
-
-                            </div>
-                            <div class="nav-banner-item odd-child flexcol">
-                                <div class="list-title">Kitchen & Dining</div>
-                                <div class="sub-list-item"><a href="#">Kitchen Storage</a></div>
-                                <div class="sub-list-item"><a href="#">Cookware & Bakeware</a></div>
-
-                            </div>
-                            <div class="nav-banner-item flexcol">
-
-                            </div>
-                            <div class="nav-banner-item flexcol">
-
-                            </div>
-                            <div class="nav-banner-item flexcol">
-
-                            </div>
-                            <div class="nav-banner-item flexcol">
-
-                            </div>
-                            <div class="nav-banner-item flexcol">
-
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Beauty & Health -->
-                    <div id="beauty-banner" class="nav-banner container">
-
-                        <div class="nav-banner-wrapper">
-                            <div class="nav-banner-item odd-child flexcol">
-                                <div class="list-title">Make up</div>
-                                <div class="sub-list-item"><a href="#">Face</a></div>
-                                <div class="sub-list-item"><a href="#">Eyes</a></div>
-                                <div class="sub-list-item"><a href="#">Lips</a></div>
-                                <div class="sub-list-item"><a href="#">Nails</a></div>
-
-                            </div>
-                            <div class="nav-banner-item even-child flexcol">
-                                <div class="list-title">Wellness</div>
-                                <div class="sub-list-item"><a href="#">Sanitizers</a></div>
-                                <div class="sub-list-item"><a href="#">Oral Care</a></div>
-                                <div class="sub-list-item"><a href="#">Feminine Hygiene</a></div>
-
-                            </div>
-                            <div class="nav-banner-item odd-child flexcol">
-                                <div class="list-title">Skincare</div>
-                                <div class="sub-list-item"><a href="#">Deodorants</a></div>
-
-                            </div>
-                            <div class="nav-banner-item flexcol">
-
-                            </div>
-                            <div class="nav-banner-item flexcol">
-
-                            </div>
-                            <div class="nav-banner-item flexcol">
-
-                            </div>
-                            <div class="nav-banner-item flexcol">
-
-                            </div>
-                            <div class="nav-banner-item flexcol">
-
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Jewellery & Accessories -->
-                    <div id="jewellery-banner" class="nav-banner container">
-
-                        <div class="nav-banner-wrapper">
-                            <div class="nav-banner-item odd-child flexcol">
-                                <div class="list-title">Jewellery</div>
-                                <div class="sub-list-item"><a href="#">Jewellery Set</a></div>
-                                <div class="sub-list-item"><a href="#">Earrings</a></div>
-                                <div class="sub-list-item"><a href="#">Mangalsutras</a></div>
-                                <div class="sub-list-item"><a href="#">Studs</a></div>
-                                <div class="sub-list-item"><a href="#">Bangles</a></div>
-                                <div class="sub-list-item"><a href="#">Necklaces</a></div>
-                                <div class="sub-list-item"><a href="#">Rings</a></div>
-                                <div class="sub-list-item"><a href="#">Anklets</a></div>
-
-                            </div>
-                            <div class="nav-banner-item even-child flexcol">
-                                <div class="list-title">Women Accessory</div>
-                                <div class="sub-list-item"><a href="#">Bags</a></div>
-                                <div class="sub-list-item"><a href="#">Watches</a></div>
-                                <div class="sub-list-item"><a href="#">Hair Accessories</a></div>
-                                <div class="sub-list-item"><a href="#">Sunglasses</a></div>
-                                <div class="sub-list-item"><a href="#">Socks</a></div>
-
-                            </div>
-                            <div class="nav-banner-item flexcol">
-
-                            </div>
-                            <div class="nav-banner-item flexcol">
-
-                            </div>
-                            <div class="nav-banner-item flexcol">
-
-                            </div>
-                            <div class="nav-banner-item flexcol">
-
-                            </div>
-                            <div class="nav-banner-item flexcol">
-
-                            </div>
-                            <div class="nav-banner-item flexcol">
-
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Bags & Footwear -->
-                    <div id="bags-banner" class="nav-banner container">
-
-                        <div class="nav-banner-wrapper">
-                            <div class="nav-banner-item odd-child flexcol">
-                                <div class="list-title">Women Bags</div>
-                                <div class="sub-list-item"><a href="#">All Women Bags</a></div>
-                                <div class="sub-list-item"><a href="#">Handbags</a></div>
-                                <div class="sub-list-item"><a href="#">Clutches</a></div>
-                                <div class="sub-list-item"><a href="#">Slingbags</a></div>
-
-                            </div>
-                            <div class="nav-banner-item even-child flexcol">
-                                <div class="list-title">Men Bags</div>
-                                <div class="sub-list-item"><a href="#">All Men Bags</a></div>
-                                <div class="sub-list-item"><a href="#">Men Wallets</a></div>
-
-                            </div>
-                            <div class="nav-banner-item odd-child flexcol">
-                                <div class="list-title">Men Footwear</div>
-                                <div class="sub-list-item"><a href="#">Sports Shoes</a></div>
-                                <div class="sub-list-item"><a href="#">Casual Shoes</a></div>
-                                <div class="sub-list-item"><a href="#">Formal Shoes</a></div>
-                                <div class="sub-list-item"><a href="#">Sandals</a></div>
-
-                            </div>
-                            <div class="nav-banner-item even-child flexcol">
-                                <div class="list-title">Women Footwear</div>
-                                <div class="sub-list-item"><a href="#">Flats</a></div>
-                                <div class="sub-list-item"><a href="#">Bellies</a></div>
-                                <div class="sub-list-item"><a href="#">Juttis</a></div>
-
-                            </div>
-                            <div class="nav-banner-item flexcol">
-
-                            </div>
-                            <div class="nav-banner-item flexcol">
-
-                            </div>
-                            <div class="nav-banner-item flexcol">
-
-                            </div>
-                            <div class="nav-banner-item flexcol">
-
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Electronics -->
-                    <div id="electronics-banner" class="nav-banner container">
-
-                        <div class="nav-banner-wrapper">
-                            <div class="nav-banner-item odd-child flexcol">
-                                <div class="list-title">Mobile & Accessories</div>
-                                <div class="sub-list-item"><a href="#">All Mobile & Accessories</a></div>
-                                <div class="sub-list-item"><a href="#">Smartwatches</a></div>
-                                <div class="sub-list-item"><a href="#">Mobile Holders</a></div>
-                                <div class="sub-list-item"><a href="#">Mobile cases and covers</a></div>
-
-                            </div>
-                            <div class="nav-banner-item even-child flexcol">
-                                <div class="list-title">Appliances</div>
-                                <div class="sub-list-item"><a href="#">All Appliances</a></div>
-                                <div class="sub-list-item"><a href="#">Grooming</a></div>
-                                <div class="sub-list-item"><a href="#">Home Appliances</a></div>
-
-                            </div>
-                            <div class="nav-banner-item flexcol">
-
-                            </div>
-                            <div class="nav-banner-item flexcol">
-
-                            </div>
-                            <div class="nav-banner-item flexcol">
-
-                            </div>
-                            <div class="nav-banner-item flexcol">
-
-                            </div>
-                            <div class="nav-banner-item flexcol">
-
-                            </div>
-                            <div class="nav-banner-item flexcol">
-
+                            <div class="card-body">
+                                <a href="#" class="card-link">Shop home products</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </header>
 
+            <script src="small-slider.js" defer></script>
+            <div class="slide container">
+                <div class="slider-wrapper">
+                    <button id="prev-slide" class="slide-button ri-arrow-left-s-line"></button>
+                    <div class="image-list">
+                        <div class="image-item">
+                            <img src="Images/showcase/short-slider/img1.jpg" alt="">
+                        </div>
+                        <div class="image-item">
+                            <img src="Images/showcase/short-slider/img2.jpg" alt="">
+                        </div>
+                        <div class="image-item">
+                            <img src="Images/showcase/short-slider/img3.jpg" alt="">
+                        </div>
+                        <div class="image-item">
+                            <img src="Images/showcase/short-slider/img4.jpg" alt="">
+                        </div>
+                        <div class="image-item">
+                            <img src="Images/showcase/short-slider/img5.jpg" alt="">
+                        </div>
+                        <div class="image-item">
+                            <img src="Images/showcase/short-slider/img7.jpg" alt="">
+                        </div>
+                        <div class="image-item">
+                            <img src="Images/showcase/short-slider/img8.jpg" alt="">
+                        </div>
+                        <div class="image-item">
+                            <img src="Images/showcase/short-slider/img9.jpg" alt="">
+                        </div>
+                        <div class="image-item">
+                            <img src="Images/showcase/short-slider/img10.jpg" alt="">
+                        </div>
+                        <div class="image-item">
+                            <img src="Images/showcase/short-slider/img11.jpg" alt="">
+                        </div>
+                        <div class="image-item">
+                            <img src="Images/showcase/short-slider/img12.jpg" alt="">
+                        </div>
+                        <div class="image-item">
+                            <img src="Images/showcase/short-slider/img13.jpg" alt="">
+                        </div>
+                        <div class="image-item">
+                            <img src="Images/showcase/short-slider/img14.jpg" alt="">
+                        </div>
+                        <div class="image-item">
+                            <img src="Images/showcase/short-slider/img15.jpg" alt="">
+                        </div>
 
+                    </div>
+                    <button id="next-slide" class="slide-button ri-arrow-right-s-line"></button>
+                </div>
+                <div class="slider-scrollbar">
+                    <div class="scrollbar-track">
+                        <div class="scrollbar-thumb"></div>
+                    </div>
+                </div>
+            </div>
 
-        <main></main>
+        </main>
         <!-- main -->
 
-        <footer></footer>
+
         <!-- footer -->
+        <div id="footerPlaceholder"></div>
+        
     </div>
-    <script src="script.js"></script>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
