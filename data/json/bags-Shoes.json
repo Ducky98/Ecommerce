@@ -1,0 +1,322 @@
+[
+    {
+        "image": "Images/products/bags-Shoes/img (1).webp",
+        "title": "bags-Shoes 1",
+        "price": 609,
+        "price_off": null,
+        "rating": 4.9,
+        "id": 10320
+    },
+    {
+        "image": "Images/products/bags-Shoes/img (2).webp",
+        "title": "bags-Shoes 2",
+        "price": 478,
+        "price_off": null,
+        "rating": 2.9,
+        "id": 10321
+    },
+    {
+        "image": "Images/products/bags-Shoes/img (3).webp",
+        "title": "bags-Shoes 3",
+        "price": 866,
+        "price_off": null,
+        "rating": 2.8,
+        "id": 10322
+    },
+    {
+        "image": "Images/products/bags-Shoes/img (4).webp",
+        "title": "bags-Shoes 4",
+        "price": 1401,
+        "price_off": 560,
+        "rating": 4.9,
+        "id": 10323
+    },
+    {
+        "image": "Images/products/bags-Shoes/img (5).webp",
+        "title": "bags-Shoes 5",
+        "price": 3137,
+        "price_off": 816,
+        "rating": 4.5,
+        "id": 10324
+    },
+    {
+        "image": "Images/products/bags-Shoes/img (6).webp",
+        "title": "bags-Shoes 6",
+        "price": 314,
+        "price_off": null,
+        "rating": 3.7,
+        "id": 10325
+    },
+    {
+        "image": "Images/products/bags-Shoes/img (7).webp",
+        "title": "bags-Shoes 7",
+        "price": 284,
+        "price_off": null,
+        "rating": 3.2,
+        "id": 10326
+    },
+    {
+        "image": "Images/products/bags-Shoes/img (8).webp",
+        "title": "bags-Shoes 8",
+        "price": 3862,
+        "price_off": null,
+        "rating": 4.1,
+        "id": 10327
+    },
+    {
+        "image": "Images/products/bags-Shoes/img (9).webp",
+        "title": "bags-Shoes 9",
+        "price": 2387,
+        "price_off": null,
+        "rating": 3.4,
+        "id": 10328
+    },
+    {
+        "image": "Images/products/bags-Shoes/img (10).webp",
+        "title": "bags-Shoes 10",
+        "price": 1891,
+        "price_off": null,
+        "rating": 3.3,
+        "id": 10329
+    },
+    {
+        "image": "Images/products/bags-Shoes/img (11).webp",
+        "title": "bags-Shoes 11",
+        "price": 3296,
+        "price_off": null,
+        "rating": 3.1,
+        "id": 10330
+    },
+    {
+        "image": "Images/products/bags-Shoes/img (12).webp",
+        "title": "bags-Shoes 12",
+        "price": 2284,
+        "price_off": null,
+        "rating": 4.7,
+        "id": 10331
+    },
+    {
+        "image": "Images/products/bags-Shoes/img (13).webp",
+        "title": "bags-Shoes 13",
+        "price": 3428,
+        "price_off": 926,
+        "rating": 2.9,
+        "id": 10332
+    },
+    {
+        "image": "Images/products/bags-Shoes/img (14).webp",
+        "title": "bags-Shoes 14",
+        "price": 2564,
+        "price_off": null,
+        "rating": 2.6,
+        "id": 10333
+    },
+    {
+        "image": "Images/products/bags-Shoes/img (15).webp",
+        "title": "bags-Shoes 15",
+        "price": 1139,
+        "price_off": null,
+        "rating": 3.3,
+        "id": 10334
+    },
+    {
+        "image": "Images/products/bags-Shoes/img (16).webp",
+        "title": "bags-Shoes 16",
+        "price": 1473,
+        "price_off": 427,
+        "rating": 3.2,
+        "id": 10335
+    },
+    {
+        "image": "Images/products/bags-Shoes/img (17).webp",
+        "title": "bags-Shoes 17",
+        "price": 1364,
+        "price_off": null,
+        "rating": 3.1,
+        "id": 10336
+    },
+    {
+        "image": "Images/products/bags-Shoes/img (18).webp",
+        "title": "bags-Shoes 18",
+        "price": 483,
+        "price_off": 227,
+        "rating": 4.5,
+        "id": 10337
+    },
+    {
+        "image": "Images/products/bags-Shoes/img (19).webp",
+        "title": "bags-Shoes 19",
+        "price": 3102,
+        "price_off": null,
+        "rating": 5.0,
+        "id": 10338
+    },
+    {
+        "image": "Images/products/bags-Shoes/img (20).webp",
+        "title": "bags-Shoes 20",
+        "price": 3722,
+        "price_off": null,
+        "rating": 4.5,
+        "id": 10339
+    },
+    {
+        "image": "Images/products/bags-Shoes/img (21).webp",
+        "title": "bags-Shoes 21",
+        "price": 1903,
+        "price_off": null,
+        "rating": 3.1,
+        "id": 10340
+    },
+    {
+        "image": "Images/products/bags-Shoes/img (22).webp",
+        "title": "bags-Shoes 22",
+        "price": 3864,
+        "price_off": 1971,
+        "rating": 4.2,
+        "id": 10341
+    },
+    {
+        "image": "Images/products/bags-Shoes/img (23).webp",
+        "title": "bags-Shoes 23",
+        "price": 2485,
+        "price_off": null,
+        "rating": 4.5,
+        "id": 10342
+    },
+    {
+        "image": "Images/products/bags-Shoes/img (24).webp",
+        "title": "bags-Shoes 24",
+        "price": 2033,
+        "price_off": null,
+        "rating": 4.9,
+        "id": 10343
+    },
+    {
+        "image": "Images/products/bags-Shoes/img (25).webp",
+        "title": "bags-Shoes 25",
+        "price": 1317,
+        "price_off": null,
+        "rating": 3.4,
+        "id": 10344
+    },
+    {
+        "image": "Images/products/bags-Shoes/img (26).webp",
+        "title": "bags-Shoes 26",
+        "price": 1431,
+        "price_off": 801,
+        "rating": 3.3,
+        "id": 10345
+    },
+    {
+        "image": "Images/products/bags-Shoes/img (27).webp",
+        "title": "bags-Shoes 27",
+        "price": 2399,
+        "price_off": 888,
+        "rating": 4.2,
+        "id": 10346
+    },
+    {
+        "image": "Images/products/bags-Shoes/img (28).webp",
+        "title": "bags-Shoes 28",
+        "price": 1502,
+        "price_off": null,
+        "rating": 2.7,
+        "id": 10347
+    },
+    {
+        "image": "Images/products/bags-Shoes/img (29).webp",
+        "title": "bags-Shoes 29",
+        "price": 3780,
+        "price_off": 2268,
+        "rating": 4.7,
+        "id": 10348
+    },
+    {
+        "image": "Images/products/bags-Shoes/img (30).webp",
+        "title": "bags-Shoes 30",
+        "price": 735,
+        "price_off": null,
+        "rating": 4.7,
+        "id": 10349
+    },
+    {
+        "image": "Images/products/bags-Shoes/img (31).webp",
+        "title": "bags-Shoes 31",
+        "price": 3857,
+        "price_off": 1581,
+        "rating": 4.3,
+        "id": 10350
+    },
+    {
+        "image": "Images/products/bags-Shoes/img (32).webp",
+        "title": "bags-Shoes 32",
+        "price": 2406,
+        "price_off": null,
+        "rating": 3.6,
+        "id": 10351
+    },
+    {
+        "image": "Images/products/bags-Shoes/img (33).webp",
+        "title": "bags-Shoes 33",
+        "price": 418,
+        "price_off": 247,
+        "rating": 4.4,
+        "id": 10352
+    },
+    {
+        "image": "Images/products/bags-Shoes/img (34).webp",
+        "title": "bags-Shoes 34",
+        "price": 1368,
+        "price_off": 766,
+        "rating": 2.8,
+        "id": 10353
+    },
+    {
+        "image": "Images/products/bags-Shoes/img (35).webp",
+        "title": "bags-Shoes 35",
+        "price": 1669,
+        "price_off": null,
+        "rating": 3.4,
+        "id": 10354
+    },
+    {
+        "image": "Images/products/bags-Shoes/img (36).webp",
+        "title": "bags-Shoes 36",
+        "price": 1032,
+        "price_off": 320,
+        "rating": 3.5,
+        "id": 10355
+    },
+    {
+        "image": "Images/products/bags-Shoes/img (37).webp",
+        "title": "bags-Shoes 37",
+        "price": 1433,
+        "price_off": null,
+        "rating": 3.4,
+        "id": 10356
+    },
+    {
+        "image": "Images/products/bags-Shoes/img (38).webp",
+        "title": "bags-Shoes 38",
+        "price": 699,
+        "price_off": 245,
+        "rating": 4.2,
+        "id": 10357
+    },
+    {
+        "image": "Images/products/bags-Shoes/img (39).webp",
+        "title": "bags-Shoes 39",
+        "price": 204,
+        "price_off": null,
+        "rating": 4.3,
+        "id": 10358
+    },
+    {
+        "image": "Images/products/bags-Shoes/img (40).webp",
+        "title": "bags-Shoes 40",
+        "price": 3690,
+        "price_off": null,
+        "rating": 4.6,
+        "id": 10359
+    }
+]

@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;700;800&family=Rubik:wght@300;400;500;600&display=swap');
+
+:root {
+    --primary-color: #43a047;
+    --secoundary-color: #63c200;
+    --secoundary-light-color: #92eb21;
+    --light-color: #d0fc9d;
+
+
+    --white-color: #ffffff;
+    --light-bg-color: #f2f3f5;
+    --light-text-color: #7c899a;
+    --border-color: #e5e8ec;
+    --dark-color: #0a021c;
+
+    --font-small: 13px;
+    --font-smaller: 11px;
+
+    --fw3: 300;
+    --fw5: 500;
+    --fw6: 600;
+    --fw7: 700;
+    --fw8: 800;
+
+    --trans-background-color: background-color .3s, color .3s;
+    --trans-background: background-color .3s;
+    --trans-color: color .3s;
+}
+
+
+
+/* -----------------------------
+    Setting default attributes
+-------------------------------- */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Rubik', sans-serif !important;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    line-height: 1.4 !important;
+    color: var(--dark-color) !important;
+    background-color: var(--white-color) !important;
+    user-select: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    -webkit-tap-highlight-color: transparent;
+    /*-webkit-tap-highlight-color is a non-standard CSS property that sets the color of the highlight that appears over a link while it's being tapped*/
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100% !important;
+    vertical-align: middle !important;
+}
+
+strong {
+    font-weight: var(--fw8);
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+input::placeholder {
+    font: inherit;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Poppins' !important;
+}
+
+h1 {
+    font-size: calc(1.3em + 1vw) !important;
+    font-weight: var(fw8) !important;
+    line-height: 1 !important;
+}
+
+h2 {
+    font-size: 2.5em !important;
+}
+
+h3 {
+    font-size: 1.2em !important;
+    font-weight: var(--fw7) !important;
+}
+
+/*--------------------------
+    REUSABLE SELECTOR
+--------------------------*/
+
+.column {
+    margin-left: -0.938em;
+    margin-right: -0.938em;
+}
+
+.column .row {
+    padding: 0 0.938em;
+}
+
+.flexwrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flexcenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flexitem {
+    display: flex;
+    align-items: center;
+}
+
+.flexcol {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.main-links a:hover {
+    color: var(--secoundary-color);
+}
+
+.second-links a:hover {
+    color: var(--light-text-color);
+    width: 100%;
+}
+
+.icon-small,
+.icon-large {
+    display: flex;
+    align-items: center;
+    padding: 0 0.25em;
+    font-weight: normal;
+}
+
+.icon-small {
+    font-size: 1.25em;
+    margin: auto;
+}
+
+.icon-large {
+    font-size: 1.75em;
+    padding: 0 0.75em 0 0;
+
+}
+
+
+/****************************
+    MAIN
+****************************/
+.products-container a{
+    text-decoration: none;
+}
+.collapse-wrapper .card-title{
+    font-size: 1.2em;
+    font-weight: var(--fw6);
+    margin-bottom: 0;
+}
+.collapse-wrapper small{
+    color: var(--light-text-color);
+    font-size: var(--font-smaller);
+    padding-bottom: .6em;
+}
+.collapse-wrapper .category .form-check-label{
+    color: var(--light-text-color);
+}
+.collapse-wrapper .toggle-button{
+    background-color: white;
+    font-size: 1.2em;
+    font-weight: var(--fw5);
+    line-height: 2em;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.collapse-wrapper .toggle-button .toggler-icon i{
+    transition: transform 0.35s ease;
+    transform-origin: 0.5em 50%;
+    display: inline-block;
+    /* transform: rotate(90deg); */
+}
+.collapse-wrapper .toggle-button[aria-expanded="true"] .toggler-icon i{
+    transform: rotate(90deg);
+}
+.category{
+    margin: 0 4px;
+}
+.genderFilt{
+    display: inline-flex;
+    flex-direction: row;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 8px 16px;
+    font-size: 16px;
+    background: rgb(255, 255, 255);
+    border: 1px solid #ccc;
+    border-radius: 16px;
+    cursor: pointer;
+    margin-bottom: 1em;
+}
+.filerActive{
+    background-color: var(--light-color) !important;
+    color: #43a047 !important;
+}
+.form-check-input:checked{
+    background-color: var(--secoundary-light-color) !important;
+    border-color: var(--secoundary-light-color) !important;
+}
+
+
+
+
+.card-details {
+    position: relative;
+    padding: 5px 12px !important;
+}
+.card img{
+    height: 340px;
+}
+.card-details .countdown {
+    display: block;
+    line-height: 10px;
+    font-size: var(--font-smaller);
+    background-color: rgb(255, 155, 125);
+    color: rgb(255, 68, 0);
+    width: fit-content;
+    padding: 4px 6px;
+    border-radius: 0 4px 4px 0;
+    position: absolute;
+    top: -15%;
+    left: 0;
+}
+
+.card-details .product-name {
+    color: #9e9c9c;
+    font-size: large;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card-details .product-price {
+    line-height: 1.2em;
+    margin: 10px 0;
+}
+
+.card-details .product-price .final-price {
+    display: inline-block;
+    font-weight: 500;
+    font-size: 1.2em;
+    margin-right: 4px;
+}
+
+.card-details .product-price .price-off {
+    text-decoration: line-through;
+    font-weight: 400;
+    margin-bottom: 2px;
+    color: #867979;
+}
+
+.card-details .product-price .price-discount {
+    color: var(--secoundary-color);
+    font-weight: 500;
+    margin: 0 3px;
+}
+.card-details .rating-star{
+    background-color: var(--primary-color);
+    font-size: 1em;
+    width: fit-content;
+    padding: 4px 1em;
+    border-radius: 15px;
+    font-weight: 500;
+    color: white;
+}
+.card-details .rating-star i{
+    margin-left: 2px;
+}

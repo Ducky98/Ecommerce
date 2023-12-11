@@ -1,0 +1,322 @@
+[
+    {
+        "image": "Images/products/women-ethnic/img (1).webp",
+        "title": "women-ethnic 1",
+        "price": 554,
+        "price_off": 144,
+        "rating": 3.2,
+        "id": 10000
+    },
+    {
+        "image": "Images/products/women-ethnic/img (2).webp",
+        "title": "women-ethnic 2",
+        "price": 322,
+        "price_off": 161,
+        "rating": 4.4,
+        "id": 10001
+    },
+    {
+        "image": "Images/products/women-ethnic/img (3).webp",
+        "title": "women-ethnic 3",
+        "price": 2992,
+        "price_off": 1047,
+        "rating": 2.5,
+        "id": 10002
+    },
+    {
+        "image": "Images/products/women-ethnic/img (4).webp",
+        "title": "women-ethnic 4",
+        "price": 3167,
+        "price_off": 1805,
+        "rating": 2.7,
+        "id": 10003
+    },
+    {
+        "image": "Images/products/women-ethnic/img (5).webp",
+        "title": "women-ethnic 5",
+        "price": 1222,
+        "price_off": null,
+        "rating": 3.2,
+        "id": 10004
+    },
+    {
+        "image": "Images/products/women-ethnic/img (6).webp",
+        "title": "women-ethnic 6",
+        "price": 1170,
+        "price_off": 550,
+        "rating": 4.9,
+        "id": 10005
+    },
+    {
+        "image": "Images/products/women-ethnic/img (7).webp",
+        "title": "women-ethnic 7",
+        "price": 3790,
+        "price_off": 1402,
+        "rating": 2.9,
+        "id": 10006
+    },
+    {
+        "image": "Images/products/women-ethnic/img (8).webp",
+        "title": "women-ethnic 8",
+        "price": 818,
+        "price_off": 221,
+        "rating": 4.6,
+        "id": 10007
+    },
+    {
+        "image": "Images/products/women-ethnic/img (9).webp",
+        "title": "women-ethnic 9",
+        "price": 2376,
+        "price_off": null,
+        "rating": 3.3,
+        "id": 10008
+    },
+    {
+        "image": "Images/products/women-ethnic/img (10).webp",
+        "title": "women-ethnic 10",
+        "price": 1521,
+        "price_off": 502,
+        "rating": 4.9,
+        "id": 10009
+    },
+    {
+        "image": "Images/products/women-ethnic/img (11).webp",
+        "title": "women-ethnic 11",
+        "price": 2348,
+        "price_off": 1197,
+        "rating": 3.6,
+        "id": 10010
+    },
+    {
+        "image": "Images/products/women-ethnic/img (12).webp",
+        "title": "women-ethnic 12",
+        "price": 2179,
+        "price_off": 1220,
+        "rating": 2.8,
+        "id": 10011
+    },
+    {
+        "image": "Images/products/women-ethnic/img (13).webp",
+        "title": "women-ethnic 13",
+        "price": 2805,
+        "price_off": 1290,
+        "rating": 3.4,
+        "id": 10012
+    },
+    {
+        "image": "Images/products/women-ethnic/img (14).webp",
+        "title": "women-ethnic 14",
+        "price": 3211,
+        "price_off": null,
+        "rating": 3.5,
+        "id": 10013
+    },
+    {
+        "image": "Images/products/women-ethnic/img (15).webp",
+        "title": "women-ethnic 15",
+        "price": 799,
+        "price_off": null,
+        "rating": 3.6,
+        "id": 10014
+    },
+    {
+        "image": "Images/products/women-ethnic/img (16).webp",
+        "title": "women-ethnic 16",
+        "price": 838,
+        "price_off": 411,
+        "rating": 4.3,
+        "id": 10015
+    },
+    {
+        "image": "Images/products/women-ethnic/img (17).webp",
+        "title": "women-ethnic 17",
+        "price": 1350,
+        "price_off": null,
+        "rating": 3.6,
+        "id": 10016
+    },
+    {
+        "image": "Images/products/women-ethnic/img (18).webp",
+        "title": "women-ethnic 18",
+        "price": 843,
+        "price_off": null,
+        "rating": 4.3,
+        "id": 10017
+    },
+    {
+        "image": "Images/products/women-ethnic/img (19).webp",
+        "title": "women-ethnic 19",
+        "price": 2797,
+        "price_off": null,
+        "rating": 4.2,
+        "id": 10018
+    },
+    {
+        "image": "Images/products/women-ethnic/img (20).webp",
+        "title": "women-ethnic 20",
+        "price": 2251,
+        "price_off": 1328,
+        "rating": 2.7,
+        "id": 10019
+    },
+    {
+        "image": "Images/products/women-ethnic/img (21).webp",
+        "title": "women-ethnic 21",
+        "price": 988,
+        "price_off": 375,
+        "rating": 3.1,
+        "id": 10020
+    },
+    {
+        "image": "Images/products/women-ethnic/img (22).webp",
+        "title": "women-ethnic 22",
+        "price": 2028,
+        "price_off": 649,
+        "rating": 4.0,
+        "id": 10021
+    },
+    {
+        "image": "Images/products/women-ethnic/img (23).webp",
+        "title": "women-ethnic 23",
+        "price": 2330,
+        "price_off": 1072,
+        "rating": 3.8,
+        "id": 10022
+    },
+    {
+        "image": "Images/products/women-ethnic/img (24).webp",
+        "title": "women-ethnic 24",
+        "price": 456,
+        "price_off": 246,
+        "rating": 4.7,
+        "id": 10023
+    },
+    {
+        "image": "Images/products/women-ethnic/img (25).webp",
+        "title": "women-ethnic 25",
+        "price": 889,
+        "price_off": 240,
+        "rating": 3.0,
+        "id": 10024
+    },
+    {
+        "image": "Images/products/women-ethnic/img (26).webp",
+        "title": "women-ethnic 26",
+        "price": 2132,
+        "price_off": null,
+        "rating": 4.9,
+        "id": 10025
+    },
+    {
+        "image": "Images/products/women-ethnic/img (27).webp",
+        "title": "women-ethnic 27",
+        "price": 2520,
+        "price_off": null,
+        "rating": 2.9,
+        "id": 10026
+    },
+    {
+        "image": "Images/products/women-ethnic/img (28).webp",
+        "title": "women-ethnic 28",
+        "price": 1939,
+        "price_off": null,
+        "rating": 3.8,
+        "id": 10027
+    },
+    {
+        "image": "Images/products/women-ethnic/img (29).webp",
+        "title": "women-ethnic 29",
+        "price": 2881,
+        "price_off": 980,
+        "rating": 3.9,
+        "id": 10028
+    },
+    {
+        "image": "Images/products/women-ethnic/img (30).webp",
+        "title": "women-ethnic 30",
+        "price": 1802,
+        "price_off": null,
+        "rating": 4.6,
+        "id": 10029
+    },
+    {
+        "image": "Images/products/women-ethnic/img (31).webp",
+        "title": "women-ethnic 31",
+        "price": 3672,
+        "price_off": 1469,
+        "rating": 2.9,
+        "id": 10030
+    },
+    {
+        "image": "Images/products/women-ethnic/img (32).webp",
+        "title": "women-ethnic 32",
+        "price": 2546,
+        "price_off": 713,
+        "rating": 3.9,
+        "id": 10031
+    },
+    {
+        "image": "Images/products/women-ethnic/img (33).webp",
+        "title": "women-ethnic 33",
+        "price": 1573,
+        "price_off": 629,
+        "rating": 4.5,
+        "id": 10032
+    },
+    {
+        "image": "Images/products/women-ethnic/img (34).webp",
+        "title": "women-ethnic 34",
+        "price": 1605,
+        "price_off": 802,
+        "rating": 4.8,
+        "id": 10033
+    },
+    {
+        "image": "Images/products/women-ethnic/img (35).webp",
+        "title": "women-ethnic 35",
+        "price": 1607,
+        "price_off": 884,
+        "rating": 2.9,
+        "id": 10034
+    },
+    {
+        "image": "Images/products/women-ethnic/img (36).webp",
+        "title": "women-ethnic 36",
+        "price": 3507,
+        "price_off": null,
+        "rating": 3.7,
+        "id": 10035
+    },
+    {
+        "image": "Images/products/women-ethnic/img (37).webp",
+        "title": "women-ethnic 37",
+        "price": 2134,
+        "price_off": null,
+        "rating": 3.4,
+        "id": 10036
+    },
+    {
+        "image": "Images/products/women-ethnic/img (38).webp",
+        "title": "women-ethnic 38",
+        "price": 1265,
+        "price_off": null,
+        "rating": 2.6,
+        "id": 10037
+    },
+    {
+        "image": "Images/products/women-ethnic/img (39).webp",
+        "title": "women-ethnic 39",
+        "price": 2009,
+        "price_off": null,
+        "rating": 3.6,
+        "id": 10038
+    },
+    {
+        "image": "Images/products/women-ethnic/img (40).webp",
+        "title": "women-ethnic 40",
+        "price": 2114,
+        "price_off": null,
+        "rating": 4.9,
+        "id": 10039
+    }
+]

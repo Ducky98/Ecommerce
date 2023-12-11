@@ -1,0 +1,322 @@
+[
+    {
+        "image": "Images/products/electronics/img (1).webp",
+        "title": "electronics 1",
+        "price": 2747,
+        "price_off": 1346,
+        "rating": 2.7,
+        "id": 10240
+    },
+    {
+        "image": "Images/products/electronics/img (2).webp",
+        "title": "electronics 2",
+        "price": 1369,
+        "price_off": null,
+        "rating": 4.6,
+        "id": 10241
+    },
+    {
+        "image": "Images/products/electronics/img (3).webp",
+        "title": "electronics 3",
+        "price": 1029,
+        "price_off": null,
+        "rating": 2.6,
+        "id": 10242
+    },
+    {
+        "image": "Images/products/electronics/img (4).webp",
+        "title": "electronics 4",
+        "price": 3238,
+        "price_off": null,
+        "rating": 4.7,
+        "id": 10243
+    },
+    {
+        "image": "Images/products/electronics/img (5).webp",
+        "title": "electronics 5",
+        "price": 1968,
+        "price_off": 689,
+        "rating": 3.4,
+        "id": 10244
+    },
+    {
+        "image": "Images/products/electronics/img (6).webp",
+        "title": "electronics 6",
+        "price": 3893,
+        "price_off": null,
+        "rating": 3.6,
+        "id": 10245
+    },
+    {
+        "image": "Images/products/electronics/img (7).webp",
+        "title": "electronics 7",
+        "price": 3904,
+        "price_off": null,
+        "rating": 4.0,
+        "id": 10246
+    },
+    {
+        "image": "Images/products/electronics/img (8).webp",
+        "title": "electronics 8",
+        "price": 3461,
+        "price_off": 1557,
+        "rating": 3.6,
+        "id": 10247
+    },
+    {
+        "image": "Images/products/electronics/img (9).webp",
+        "title": "electronics 9",
+        "price": 1292,
+        "price_off": 401,
+        "rating": 4.3,
+        "id": 10248
+    },
+    {
+        "image": "Images/products/electronics/img (10).webp",
+        "title": "electronics 10",
+        "price": 542,
+        "price_off": null,
+        "rating": 3.6,
+        "id": 10249
+    },
+    {
+        "image": "Images/products/electronics/img (11).webp",
+        "title": "electronics 11",
+        "price": 1387,
+        "price_off": null,
+        "rating": 4.9,
+        "id": 10250
+    },
+    {
+        "image": "Images/products/electronics/img (12).webp",
+        "title": "electronics 12",
+        "price": 3770,
+        "price_off": 1131,
+        "rating": 2.6,
+        "id": 10251
+    },
+    {
+        "image": "Images/products/electronics/img (13).webp",
+        "title": "electronics 13",
+        "price": 1176,
+        "price_off": 353,
+        "rating": 4.5,
+        "id": 10252
+    },
+    {
+        "image": "Images/products/electronics/img (14).webp",
+        "title": "electronics 14",
+        "price": 1371,
+        "price_off": null,
+        "rating": 3.1,
+        "id": 10253
+    },
+    {
+        "image": "Images/products/electronics/img (15).webp",
+        "title": "electronics 15",
+        "price": 2071,
+        "price_off": null,
+        "rating": 3.2,
+        "id": 10254
+    },
+    {
+        "image": "Images/products/electronics/img (16).webp",
+        "title": "electronics 16",
+        "price": 3025,
+        "price_off": 1119,
+        "rating": 2.7,
+        "id": 10255
+    },
+    {
+        "image": "Images/products/electronics/img (17).webp",
+        "title": "electronics 17",
+        "price": 3152,
+        "price_off": 1576,
+        "rating": 4.3,
+        "id": 10256
+    },
+    {
+        "image": "Images/products/electronics/img (18).webp",
+        "title": "electronics 18",
+        "price": 3739,
+        "price_off": 1570,
+        "rating": 4.2,
+        "id": 10257
+    },
+    {
+        "image": "Images/products/electronics/img (19).webp",
+        "title": "electronics 19",
+        "price": 1469,
+        "price_off": 690,
+        "rating": 4.9,
+        "id": 10258
+    },
+    {
+        "image": "Images/products/electronics/img (20).webp",
+        "title": "electronics 20",
+        "price": 1183,
+        "price_off": 662,
+        "rating": 3.7,
+        "id": 10259
+    },
+    {
+        "image": "Images/products/electronics/img (21).webp",
+        "title": "electronics 21",
+        "price": 2365,
+        "price_off": null,
+        "rating": 4.2,
+        "id": 10260
+    },
+    {
+        "image": "Images/products/electronics/img (22).webp",
+        "title": "electronics 22",
+        "price": 3736,
+        "price_off": null,
+        "rating": 3.7,
+        "id": 10261
+    },
+    {
+        "image": "Images/products/electronics/img (23).webp",
+        "title": "electronics 23",
+        "price": 1110,
+        "price_off": 289,
+        "rating": 4.8,
+        "id": 10262
+    },
+    {
+        "image": "Images/products/electronics/img (24).webp",
+        "title": "electronics 24",
+        "price": 2052,
+        "price_off": null,
+        "rating": 4.5,
+        "id": 10263
+    },
+    {
+        "image": "Images/products/electronics/img (25).webp",
+        "title": "electronics 25",
+        "price": 345,
+        "price_off": 138,
+        "rating": 4.4,
+        "id": 10264
+    },
+    {
+        "image": "Images/products/electronics/img (26).webp",
+        "title": "electronics 26",
+        "price": 2664,
+        "price_off": 1465,
+        "rating": 3.8,
+        "id": 10265
+    },
+    {
+        "image": "Images/products/electronics/img (27).webp",
+        "title": "electronics 27",
+        "price": 2035,
+        "price_off": null,
+        "rating": 4.0,
+        "id": 10266
+    },
+    {
+        "image": "Images/products/electronics/img (28).webp",
+        "title": "electronics 28",
+        "price": 1623,
+        "price_off": null,
+        "rating": 2.9,
+        "id": 10267
+    },
+    {
+        "image": "Images/products/electronics/img (29).webp",
+        "title": "electronics 29",
+        "price": 1390,
+        "price_off": 820,
+        "rating": 3.3,
+        "id": 10268
+    },
+    {
+        "image": "Images/products/electronics/img (30).webp",
+        "title": "electronics 30",
+        "price": 1026,
+        "price_off": 595,
+        "rating": 3.6,
+        "id": 10269
+    },
+    {
+        "image": "Images/products/electronics/img (31).webp",
+        "title": "electronics 31",
+        "price": 2927,
+        "price_off": 820,
+        "rating": 4.7,
+        "id": 10270
+    },
+    {
+        "image": "Images/products/electronics/img (32).webp",
+        "title": "electronics 32",
+        "price": 3230,
+        "price_off": 1163,
+        "rating": 2.8,
+        "id": 10271
+    },
+    {
+        "image": "Images/products/electronics/img (33).webp",
+        "title": "electronics 33",
+        "price": 2158,
+        "price_off": null,
+        "rating": 3.1,
+        "id": 10272
+    },
+    {
+        "image": "Images/products/electronics/img (34).webp",
+        "title": "electronics 34",
+        "price": 3430,
+        "price_off": 1784,
+        "rating": 2.8,
+        "id": 10273
+    },
+    {
+        "image": "Images/products/electronics/img (35).webp",
+        "title": "electronics 35",
+        "price": 1821,
+        "price_off": null,
+        "rating": 4.0,
+        "id": 10274
+    },
+    {
+        "image": "Images/products/electronics/img (36).webp",
+        "title": "electronics 36",
+        "price": 1970,
+        "price_off": null,
+        "rating": 4.0,
+        "id": 10275
+    },
+    {
+        "image": "Images/products/electronics/img (37).webp",
+        "title": "electronics 37",
+        "price": 375,
+        "price_off": 202,
+        "rating": 3.1,
+        "id": 10276
+    },
+    {
+        "image": "Images/products/electronics/img (38).webp",
+        "title": "electronics 38",
+        "price": 2512,
+        "price_off": null,
+        "rating": 3.8,
+        "id": 10277
+    },
+    {
+        "image": "Images/products/electronics/img (39).webp",
+        "title": "electronics 39",
+        "price": 257,
+        "price_off": null,
+        "rating": 4.1,
+        "id": 10278
+    },
+    {
+        "image": "Images/products/electronics/img (40).webp",
+        "title": "electronics 40",
+        "price": 1586,
+        "price_off": 777,
+        "rating": 2.7,
+        "id": 10279
+    }
+]
