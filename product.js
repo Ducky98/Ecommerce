@@ -58,30 +58,6 @@ document.addEventListener('DOMContentLoaded', () => {
       const productCard = document.createElement('div');
       productCard.classList.add('col-lg-3', 'col-md-6', 'col-12');
 
-
-
-      function reverseCountdown(seconds) {
-        return new Promise((resolve, reject) => {
-          const countdownElement = document.querySelector('.countdown');
-          const interval = setInterval(() => {
-            if (seconds <= 0) {
-              clearInterval(interval);
-              resolve("00h : 00m : 00s");
-            } else {
-              const hours = Math.floor(seconds / 3600);
-              const minutes = Math.floor((seconds % 3600) / 60);
-              const remainingSeconds = seconds % 60;
-
-              const formattedTime = `${hours.toString().padStart(2, '0')}h : ${minutes.toString().padStart(2, '0')}m : ${remainingSeconds.toString().padStart(2, '0')}s`;
-
-              countdownElement.textContent = formattedTime;
-              seconds--;
-            }
-          }, 1000);
-        });
-      }
-
-
       //Little bit maths
       function calculateDiscount(costPrice, sellingPrice) {
         const discount = ((costPrice - sellingPrice) / costPrice) * 100;
@@ -105,7 +81,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
       //put inner html
       productCard.innerHTML = `
-          <a href="nextPage.html?file=${message}&productId=${product.id}" class="product-link">
+          <a href="productView.html?file=${message}&productId=${product.id}" class="product-link">
             <div class="card w-100">
                 <img src="${product.image}" class="card-img-top p-1" alt="Product Image">
                 <div class="card-body card-details">

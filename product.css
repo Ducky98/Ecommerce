@@ -171,23 +171,27 @@ h3 {
 /****************************
     MAIN
 ****************************/
-.products-container a{
+.products-container a {
     text-decoration: none;
 }
-.collapse-wrapper .card-title{
+
+.collapse-wrapper .card-title {
     font-size: 1.2em;
     font-weight: var(--fw6);
     margin-bottom: 0;
 }
-.collapse-wrapper small{
+
+.collapse-wrapper small {
     color: var(--light-text-color);
     font-size: var(--font-smaller);
     padding-bottom: .6em;
 }
-.collapse-wrapper .category .form-check-label{
+
+.collapse-wrapper .category .form-check-label {
     color: var(--light-text-color);
 }
-.collapse-wrapper .toggle-button{
+
+.collapse-wrapper .toggle-button {
     background-color: white;
     font-size: 1.2em;
     font-weight: var(--fw5);
@@ -196,19 +200,23 @@ h3 {
     display: flex;
     justify-content: space-between;
 }
-.collapse-wrapper .toggle-button .toggler-icon i{
+
+.collapse-wrapper .toggle-button .toggler-icon i {
     transition: transform 0.35s ease;
     transform-origin: 0.5em 50%;
     display: inline-block;
     /* transform: rotate(90deg); */
 }
-.collapse-wrapper .toggle-button[aria-expanded="true"] .toggler-icon i{
+
+.collapse-wrapper .toggle-button[aria-expanded="true"] .toggler-icon i {
     transform: rotate(90deg);
 }
-.category{
+
+.category {
     margin: 0 4px;
 }
-.genderFilt{
+
+.genderFilt {
     display: inline-flex;
     flex-direction: row;
     -webkit-box-align: center;
@@ -221,11 +229,13 @@ h3 {
     cursor: pointer;
     margin-bottom: 1em;
 }
-.filerActive{
+
+.filerActive {
     background-color: var(--light-color) !important;
     color: #43a047 !important;
 }
-.form-check-input:checked{
+
+.form-check-input:checked {
     background-color: var(--secoundary-light-color) !important;
     border-color: var(--secoundary-light-color) !important;
 }
@@ -237,9 +247,11 @@ h3 {
     position: relative;
     padding: 5px 12px !important;
 }
-.card img{
+
+.card img {
     height: 340px;
 }
+
 .card-details .countdown {
     display: block;
     line-height: 10px;
@@ -286,7 +298,8 @@ h3 {
     font-weight: 500;
     margin: 0 3px;
 }
-.card-details .rating-star{
+
+.card-details .rating-star {
     background-color: var(--primary-color);
     font-size: 1em;
     width: fit-content;
@@ -295,6 +308,112 @@ h3 {
     font-weight: 500;
     color: white;
 }
-.card-details .rating-star i{
+
+.card-details .rating-star i {
     margin-left: 2px;
+}
+
+
+/**************************************
+            productView.html
+***************************************/
+.productForYou a{
+    text-decoration: none;
+}
+.product-description {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: fit-content;
+    padding: 1em;
+}
+.product-description .title {
+    font-size: 2em;
+    font-weight: var(--fw6);
+    font-family: 'rubik';
+}
+
+.product-description .price {
+    display: flex;
+    gap: 1.2em;
+    margin: .7em 1em;
+    font-size: 1.6em;
+    
+}
+
+.price .final {
+    color: var(--primary-color);
+    font-weight: var(--fw7);
+}
+
+.price .price-off {
+    color: #706e6e;
+    position: relative;
+}
+
+.price .price-off::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 50%;
+    right: 0;
+    border-top: 3px solid;
+    border-color: inherit;
+
+    -webkit-transform: rotate(-20deg);
+    -moz-transform: rotate(-20deg);
+    -ms-transform: rotate(-20deg);
+    -o-transform: rotate(-20deg);
+    transform: rotate(-20deg);
+}
+.price .discount{
+    font-size: 1.2rem;
+    margin-top: 5px;
+    font-weight: var(--fw5);
+    color: var(--secoundary-color);
+}
+.product-description .delivery{
+    display: inline-block;
+    margin: .6em .2em;
+    background-color: #e9e9e9;
+    width: fit-content;
+    color: var(--light-text-color);
+    padding: .2em .6em;
+    border-radius: 12px;
+}
+.product-description .buy-product{
+    padding: .5em 2.5em;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: var(--fw7);
+}
+.product-description .buy-product .addCart{
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+    padding: .5em 1em;
+    margin-top: 1em;
+    color: var(--primary-color);
+    background-color: white;
+}
+.product-description .buy-product .addCart:hover{
+    color: white;
+    background-color: var(--primary-color);
+}
+.product-description .buy-product .buyNow{
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+    padding: .5em 1em;
+    margin-top: 1em;
+    color: white;
+    background-color: var(--primary-color);
+}
+.product-description .buy-product  .buyNow:hover{
+    color: var(--primary-color);
+    background-color: white;
+}
+.product-description-detail{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: fit-content;
+    padding: 1em;
+    color: #9d9696;
 }

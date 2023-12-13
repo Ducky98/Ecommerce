@@ -39,7 +39,7 @@ for key, value in productDict.items():
         discount = random.randint(25, 60) if random.random() < 0.4 else 0  # 40% chance of discount
         product = {
             "image": f"Images/products/{key}/img ({i}).webp",
-            "title": f"{key} {i}",
+            "title": f"{key.title()} Product {i}",
             "price": price,
             "price_off": round(price * discount / 100) if discount else None,
             "rating": rating,
@@ -56,5 +56,8 @@ for key, value in productDict.items():
         json.dump(products, outfile, indent=4)
 
     # Open the folder in the file explorer
-if os.path.exists(folder):
-    os.system(f'explorer {os.path.realpath(folder)}')
+
+
+#           DON'T UNCOMMENT AND RUN IT, IT DID ITS JOB BUT MY POTATO PC TOOK A LOT OF LOAD    
+# if os.path.exists(folder):
+#     os.system(f'explorer {os.path.realpath(folder)}')
