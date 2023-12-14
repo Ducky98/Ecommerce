@@ -258,6 +258,7 @@ h3 {
 }
 
 .closebtn {
+    display: none;
     position: absolute;
     top: 0;
     right: 25px;
@@ -409,7 +410,62 @@ h3 {
     height: 1px;
     background-color: #ccc;
 }
-
+.cartHover-box {
+    position: absolute;
+    top: 125%;
+    right: 0;
+    width: 300px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 60;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease-in-out, visibility 0s linear 0.3s;
+    max-height: 320px;
+    overflow: hidden; /* Hide overflowing content */
+    display: flex; /* Use flexbox */
+    flex-direction: column; 
+}
+.cartHover-box .bottom-button{
+    display: flex;
+    margin: 0 auto;
+    /* position: absolute;
+    bottom: 0; */
+}
+.cartHover-box button{
+    width: fit-content;
+    /* background-color: var(--secoundary-light-color) !important; */
+    margin: 0 auto;
+    margin-bottom: 1em;
+    flex-shrink: 0;
+}
+#cartData{
+    flex: 1; /* Grow to take available space */
+    overflow-y: auto; /* Allow vertical scrolling */
+    overflow-x: hidden;
+    border-top: 1px solid #ccc; /* Just for demonstration */
+    position: relative; 
+}
+#cart-box:hover .cartHover-box {
+    opacity: 1;
+    visibility: visible;
+    transition-delay: 0s;
+}
+.cartHover-box .cart-title{
+    white-space: nowrap; /* Prevents text from wrapping */
+    overflow: hidden; /* Hides overflowing text */
+    text-overflow: ellipsis;
+}
+.cartHover-box .cart-price{
+    color: rgb(107, 4, 4);
+    font-weight: var(--fw5);
+}
+.cartHover-box .remove-product{
+    text-decoration: none;
+    text-align: center;
+}
 /*01.HEADER------------------
         b. Header nav
     ---------------------------*/
@@ -541,6 +597,9 @@ h3 {
     .pc-hide {
         display: initial;
     }
+    .closebtn{
+        display: block;
+    }
 }
 
 /* For standard smartphones */
@@ -575,6 +634,9 @@ h3 {
     .header-searchbar {
         display: none;
     }
+    .closebtn{
+        display: block;
+    }
 }
 
 /* For small smartphones */
@@ -592,7 +654,9 @@ h3 {
     .logo {
         font-size: 1.5em;
     }
-
+    .closebtn{
+        display: block;
+    }
     .pc-hide {
         display: initial;
     }

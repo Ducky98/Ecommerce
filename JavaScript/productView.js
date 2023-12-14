@@ -1,3 +1,32 @@
+
+/*-----------------------
+    Increase &
+    Decrease
+-------------------------*/
+
+function decreaseValue() {
+    var inputBox = document.getElementById('qtyBox');
+    var value = parseInt(inputBox.value);
+    value = isNaN(value) ? 1 : value;
+    value = value <= 1 ? 1 : value - 1;
+    inputBox.value = value;
+}
+
+function increaseValue() {
+    var inputBox = document.getElementById('qtyBox');
+    var value = parseInt(inputBox.value);
+    value = isNaN(value) ? 1 : value;
+    value = value + 1;
+    inputBox.value = value;
+}
+
+
+
+
+
+/*-----------------
+      Main
+------------------ */
 document.addEventListener('DOMContentLoaded', async () => {
     try {
         const queryString = window.location.search;
@@ -5,6 +34,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         const clickedFile = urlParams.get('file');
         const clickedProductId = parseInt(urlParams.get('productId'));
+
 
         // console.log('Clicked File:', clickedFile);
         // console.log('Clicked Product ID:', clickedProductId);
@@ -113,10 +143,16 @@ document.addEventListener('DOMContentLoaded', async () => {
                                 <div class="delivery">7 Days Replacement</div>
                                 <div class="delivery">Secure</div>
                             </div>
+                            <div class="qty">
+                            <h5>Product Quantity :</h5>
+                            <button onclick="decreaseValue()">-</button>
+                            <input type="number" id="qtyBox" min="1" value="1">
+                            <button onclick="increaseValue()">+</button>
+                            </div>
                                 <div class="row buy-product">
                                 <div class="col-md-5 col-12 addCart"><i class="ri-shopping-cart-2-line"></i> Add to Cart</div>
                                 <div class="col-md-2 col-12"></div>
-                                <div class="col-md-5 col-12 buyNow"><i class="ri-arrow-right-double-line"></i> Buy Now</div>
+                                <div class="col-md-5 col-12 buyNow" onclick="window.location.href='checkout.html?chkOt=${clickedFile}&pId=${objectWithIdindex}'"><i class="ri-arrow-right-double-line"></i> Buy Now</div>
                             </div>
                         
                         <div class="product-description-detail">
@@ -126,13 +162,25 @@ document.addEventListener('DOMContentLoaded', async () => {
                 </div>
             `;
 
+            // Get the addCartElement
+            const addCartElement = document.querySelector('.addCart');
 
+            // Attach event listener only once
+            addCartElement.addEventListener('click', function () {
+                appendToLocalStorage(objectWithId.image, finalPrice, objectWithId.title);
+            });
+
+
+
+            /*------------------------------
+                    product for you
+            *********************************/
             const productsContainer = document.querySelector('.productForYou');
             let n = objectWithIdindex + 1; // Starting point
-            if(n == 40){ n = 0};
+            if (n == 40) { n = 0 };
             let count = 0;
             for (let i = n; count < 4; i = (i + 1) % 40) {
-                console.log(data[i])
+                // console.log(data[i])
                 product = data[i];
                 const productCard = document.createElement('div');
                 productCard.classList.add('col-lg-3', 'col-md-6', 'col-12');
@@ -176,6 +224,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                         </div>
                     </a>
                 `;
+
                 productsContainer.appendChild(productCard)
                 count++;
             }
@@ -191,4 +240,20 @@ document.addEventListener('DOMContentLoaded', async () => {
 });
 
 
+function appendToLocalStorage(image, price, title) {
+    var qtyBoxY = document.getElementById('qtyBox').value;
+    const newData = {
+        image: image,
+        title: title,
+        price: price,
+        qty: qtyBoxY
+    };
 
+    let existingData = localStorage.getItem('productData');
+    existingData = existingData ? JSON.parse(existingData) : [];
+
+    existingData.push(newData);
+    localStorage.setItem('productData', JSON.stringify(existingData));
+    // console.log('Data has been appended to localStorage successfully!');
+    location.reload()
+}

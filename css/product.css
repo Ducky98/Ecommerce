@@ -410,10 +410,38 @@ h3 {
     color: var(--primary-color);
     background-color: white;
 }
+.product-description .buy-product .addCart:active,
+.product-description .buy-product  .buyNow:active{
+    background-color: #92eb21;
+    color: #0a021c;
+}
 .product-description-detail{
     border: 1px solid #ccc;
     border-radius: 5px;
     height: fit-content;
     padding: 1em;
     color: #9d9696;
+}
+.qty{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    line-height: 1.5;
+}
+.qty button{
+    width: 30px;
+    height:  30px;
+    background-color: var(--secoundary-color);
+    border: none;
+    margin: 0 10px;
+}
+.qty input{
+    width: 40px;
+    height: 30px;
+    text-align: center;
+}
+.qty input::-webkit-outer-spin-button,
+.qty input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
