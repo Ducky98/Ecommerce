@@ -152,7 +152,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                                 <div class="row buy-product">
                                 <div class="col-md-5 col-12 addCart"><i class="ri-shopping-cart-2-line"></i> Add to Cart</div>
                                 <div class="col-md-2 col-12"></div>
-                                <div class="col-md-5 col-12 buyNow" onclick="window.location.href='checkout.html?chkOt=${clickedFile}&pId=${objectWithIdindex}'"><i class="ri-arrow-right-double-line"></i> Buy Now</div>
+                                <div class="col-md-5 col-12 buyNow"><i class="ri-arrow-right-double-line"></i> Buy Now</div>
                             </div>
                         
                         <div class="product-description-detail">
@@ -161,6 +161,13 @@ document.addEventListener('DOMContentLoaded', async () => {
                     </div>
                 </div>
             `;
+
+            const buyNowElement = document.querySelector('.buyNow');
+
+            // Attach event listener only once
+            buyNowElement.addEventListener('click', function () {
+                sendDataTocheckout(fileBrowser, clickedProductId)
+            });
 
             // Get the addCartElement
             const addCartElement = document.querySelector('.addCart');
@@ -256,4 +263,9 @@ function appendToLocalStorage(image, price, title) {
     localStorage.setItem('productData', JSON.stringify(existingData));
     // console.log('Data has been appended to localStorage successfully!');
     location.reload()
+}
+function sendDataTocheckout(filename, productID){
+    var qtyBoxY = document.getElementById('qtyBox').value;
+    const nextPageURL = `checkout.html?filename=${encodeURIComponent(filename)}&productId=${encodeURIComponent(productID)}&quantity=${encodeURIComponent(qtyBoxY)}`;
+    window.location.href = nextPageURL;
 }

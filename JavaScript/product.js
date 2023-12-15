@@ -82,7 +82,7 @@ document.addEventListener('DOMContentLoaded', () => {
       //put inner html
       productCard.innerHTML = `
           <a href="productView.html?file=${message}&productId=${product.id}" class="product-link">
-            <div class="card w-100">
+            <div class="card w-100 productDisplay">
                 <img src="${product.image}" class="card-img-top p-1" alt="Product Image">
                 <div class="card-body card-details">
                     <div class="countdown">ID: ${product.id}</div>
