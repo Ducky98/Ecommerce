@@ -45,6 +45,7 @@ $(document).ready(function () {
                             event.target.closest('.row').remove();
                         }
                     });
+                    
                 } else {
                     const NoSelProduct = document.createElement('div');
                     NoSelProduct.classList.add('row', 'my-2',"mx-5");
@@ -52,7 +53,12 @@ $(document).ready(function () {
                     productContainer.appendChild(NoSelProduct);
                 }
             } else {
+                const NoSelProduct = document.createElement('div');
+                    NoSelProduct.classList.add('row', 'my-2',"mx-5");
+                    NoSelProduct.innerHTML = "No Product Selected😔";
+                    productContainer.appendChild(NoSelProduct);
                 console.log('No data found in local storage.');
+                addClassToElement();
             }
         } else {
             console.log('The element with ID "cartData" was not found.');
@@ -60,6 +66,23 @@ $(document).ready(function () {
     });
 });
 
+
+function addClassToElement() {
+    var element = document.getElementById("checOut");
+    if (element.classList) {
+      element.classList.add("disabled");
+    } else {
+      // For older browsers that don't support classList
+      var classes = element.className.split(" ");
+      if (classes.indexOf("newClass") === -1) {
+        classes.push("newClass");
+      }
+      element.className = classes.join(" ");
+    }
+  }
+  
+  
+  // Usage: Call the function with the element ID, storage key, and class to add  
 // -------------------------------------------
 // Side bar for Mobile screen sizes
 // -------------------------------------------
