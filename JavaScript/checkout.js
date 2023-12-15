@@ -93,7 +93,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                                 Total:
                             </div>
                             <div class="col-6">
-                              ₹${total}
+                              ${total}
                             </div>
                         </div>
             `;
